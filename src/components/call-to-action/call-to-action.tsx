@@ -14,11 +14,12 @@ export function CallToAction() {
 
       <div className="absolute inset-0 bg-[url('/background-footer.svg')] bg-cover bg-center bg-no-repeat opacity-90" />
 
+      <div className="absolute top-0 left-1/2 translate-y-[-50%] translate-x-[-50%] p-4 bg-cyan-300 w-fit rounded-full shadow-xl">
+        <Store className="text-cyan-100" />
+      </div>
+
       <div className="relative container">
         <div className="flex flex-col items-center gap-6 text-center">
-          <div className="p-4 bg-cyan-300 w-fit rounded-full">
-            <Store className="text-cyan-100" />
-          </div>
 
           <h2 className={`${ptSansCaption.className} text-heading-xl text-gray-100 text-balance`}>
             Crie uma loja online e inicie suas vendas ainda hoje
