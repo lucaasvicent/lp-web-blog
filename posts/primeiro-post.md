@@ -1,22 +1,28 @@
 ---
 title: Transformando seu negócio em uma loja virtual
 description: Se você está buscando uma maneira simples e eficaz de vender seus produtos online, o Site.Set é a solução perfeita para você.
-date: 2024-12-20 10:00:00
+date: 2024-01-15
 image: /assets/primeiro-post.png
+author:
+  name: João Silva
+  avatar: /assets/primeiro-post.png
 ---
 
-Se você está buscando uma maneira simples e eficaz de vender seus produtos online, o Site.Set é a solução perfeita para você. Criar uma loja virtual de sucesso nunca foi tão fácil. Com nossa plataforma intuitiva, você pode criar um site profissional para sua loja em minutos, sem precisar de conhecimentos técnicos.
+# Transformando seu negócio em uma loja virtual
 
-Veja o que nossa plataforma oferece:
+Se você está buscando uma maneira simples e eficaz de vender seus produtos online, o Site.Set é a solução perfeita para você.
 
-**Loja responsiva**: Sua loja estará otimizada para todos os dispositivos, garantindo uma experiência de compra perfeita em qualquer tela.
+## Por que escolher o Site.Set?
 
-**Gestão de inventário**: Organize seus produtos com facilidade e mantenha o controle sobre o estoque de sua loja.
+O Site.Set oferece uma plataforma completa e intuitiva para criar sua loja virtual em minutos. Com ferramentas poderosas e um design responsivo, você pode começar a vender imediatamente.
 
-**Formas de pagamento**: Aceite pagamentos de forma rápida e segura com várias opções de gateways de pagamento.
+### Principais benefícios:
 
-**SEO e Marketing**: Nossa plataforma já vem com ferramentas de SEO integradas para ajudar sua loja a ser encontrada mais facilmente nos motores de busca.
+- **Fácil de usar**: Interface intuitiva que não requer conhecimentos técnicos
+- **Design responsivo**: Sua loja se adapta perfeitamente a qualquer dispositivo
+- **Pagamentos seguros**: Integração com os principais gateways de pagamento
+- **Suporte 24/7**: Nossa equipe está sempre pronta para ajudar
 
-**Suporte especializado**: Nossa equipe de suporte está sempre disponível para ajudar você com qualquer dúvida ou desafio.
+## Comece hoje mesmo
 
-Está pronto para colocar seus produtos no mundo? Com o Site.Set, criar sua loja online é rápido, simples e acessível. Desde a configuração do site até a finalização da compra, oferecemos todas as ferramentas necessárias para você vender com sucesso.
+Não perca mais tempo e transforme seu negócio em uma loja virtual de sucesso!
