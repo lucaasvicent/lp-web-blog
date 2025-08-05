@@ -32,7 +32,7 @@ export default function PostCard({ slug, title, description, image, date, author
             alt={title}
             width={288}
             height={144}
-            className="w-full h-40 object-cover object-center rounded-t-[6px]"
+            className="w-full h-40 object-cover object-center rounded-[8px]"
           />
         </div>
 

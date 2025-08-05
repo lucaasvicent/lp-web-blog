@@ -4,8 +4,8 @@ description: O Site.Set oferece tudo o que você precisa para criar uma loja onl
 date: 2024-11-16
 image: /assets/segundo-post.png
 author:
-  name: Aspen Dokidis
-  avatar: /assets/segundo-post.png
+  name: Dulce Westervelt
+  avatar: /customer-02.png
 ---
 
 # 5 motivos para escolher o Site.Set
