@@ -28,6 +28,9 @@ export default function Markdown({ content, }: MarkdownProps) {
         strong: ({ children }) => (
           <strong className='font-extrabold text-gray-100'>{children}</strong>
         ),
+        li: ({ children }) => (
+          <li className='mb-6 leading-relaxed text-gray-200'>{children}</li>
+        ),
       }}
     >
       {content}
