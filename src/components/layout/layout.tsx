@@ -1,6 +1,7 @@
 import { Inter } from "next/font/google";
 import { Footer } from "../footer/footer";
 import { Header } from "../header/header";
+import { CallToAction } from "../call-to-action/call-to-action";
 
 type LayoutProps = {
   children?: React.ReactNode;
@@ -15,6 +16,7 @@ export function Layout({ children }: LayoutProps) {
       <main className="flex-1 flex-col mb-12">
         {children}
       </main>
+      <CallToAction />
       <Footer />
     </div>
   )

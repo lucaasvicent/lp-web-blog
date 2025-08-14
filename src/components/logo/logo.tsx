@@ -4,7 +4,7 @@ import Link from "next/link";
 export function Logo() {
   return (
     <>
-      <Link href='/logo' title="Página inicial">
+      <Link href='/' title="Página inicial">
         <Image
           src="/logo.svg"
           alt="Logo"
