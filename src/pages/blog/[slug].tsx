@@ -3,12 +3,12 @@ import Image from "next/image"
 import Link from "next/link"
 import { useRouter } from "next/router"
 
-import { Breadcrumb, BreadcrumbItem, BreadcrumbLink, BreadcrumbList, BreadcrumbSeparator } from "@/components/ui/breadcrumb"
 import { Avatar } from "@/components/avatar"
 import AvatarTitle from "@/components/avatar/avatar-title"
 import Markdown from "@/components/markdown/markdown"
+import { Breadcrumb, BreadcrumbItem, BreadcrumbLink, BreadcrumbList, BreadcrumbSeparator } from "@/components/ui/breadcrumb"
 import { Button } from "@/components/ui/button"
-import useShare from "@/hooks/use-share"
+import useShare from "@/hooks/use-share/use-share"
 
 export default function PostPage() {
   const router = useRouter()
@@ -77,7 +77,7 @@ export default function PostPage() {
           </article>
 
           <aside className="space-y-6 ">
-            <div className="rounded-lg bg-gray-700 p-4 md:p-6">
+            <div className="rounded-lg bg-gray-700">
               <h2 className="mb-4 text-heading-xs text-gray-100">Compartilhar</h2>
 
               <div className="space-y-3">
