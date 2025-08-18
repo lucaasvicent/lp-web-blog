@@ -4,18 +4,16 @@ import Markdown from "@/components/markdown/markdown";
 import { Breadcrumb, BreadcrumbItem, BreadcrumbLink, BreadcrumbList, BreadcrumbSeparator } from "@/components/ui/breadcrumb";
 import { Button } from "@/components/ui/button";
 import useShare from "@/hooks/use-share/use-share";
-import { allPosts } from "contentlayer/generated";
+import { Post } from "contentlayer/generated";
 import Image from "next/image";
 import Link from "next/link";
-import { useRouter } from "next/router";
 
-export default function PostPageScreen() {
-  const router = useRouter()
-  const slug = router.query.slug as string
-  const post = allPosts.find((post) =>
-    post.slug.toLocaleLowerCase() === slug?.toLowerCase()
-  );
-  const postUrl = `https://site.set/blog/${slug}`
+export type PostPageProps = {
+  post: Post;
+}
+
+export default function PostPageScreen({ post }: PostPageProps) {
+  const postUrl = `https://site.set/blog/${post.slug}`;
 
   const { shareButtons } = useShare({
     url: postUrl,
