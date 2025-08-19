@@ -16,7 +16,6 @@ async function getUser(): Promise<UserListProps[]> {
 
 async function UserList() {
   const userList = await getUser();
-  console.log('SERVER', userList);
 
   return (
     <div className="mt-20 text-white">
