@@ -34,7 +34,6 @@ export async function generateMetadata({ params }: BlogPostPageProps): Promise<M
   }
 }
 
-export const revalidade = 60;
 
 export default async function BlogPostPage({ params }: BlogPostPageProps) {
   const { slug } = await params;
